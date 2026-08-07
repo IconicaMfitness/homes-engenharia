@@ -17,7 +17,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '380m²',
       year: '2024',
-      image: 'portfolio-01',
+      image: '/manus-storage/obra-4_cfcc6955.jpg',
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '250m²',
       year: '2023',
-      image: 'portfolio-02',
+      image: '/manus-storage/obra-5_d70960a8.jpg',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function Portfolio() {
       category: 'ongoing',
       area: '520m²',
       year: '2024',
-      image: 'portfolio-03',
+      image: '/manus-storage/obra-6_a709cf1d.jpg',
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '420m²',
       year: '2023',
-      image: 'portfolio-04',
+      image: '/manus-storage/foto-1_331c4a32.jpg',
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export default function Portfolio() {
       category: 'ongoing',
       area: '300m²',
       year: '2024',
-      image: 'portfolio-05',
+      image: '/manus-storage/foto-2_1dae2608.jpg',
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '350m²',
       year: '2023',
-      image: 'portfolio-06',
+      image: '/manus-storage/foto-3_20ebcaae.jpg',
     },
   ];
 
@@ -114,27 +114,12 @@ export default function Portfolio() {
             >
               {/* Project Card */}
               <div className="overflow-hidden rounded-lg shadow-sm hover:shadow-lg transition-all duration-300">
-                {/* Image Placeholder */}
-                <div className="placeholder-container aspect-square bg-gradient-to-br from-[#f5f5f5] to-[#e0e0e0] group-hover:from-[#E8471A]/5 group-hover:to-[#E8471A]/10 transition-all duration-300">
-                  <div className="placeholder-content w-full h-full">
-                    <svg
-                      className="placeholder-icon"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    <p className="placeholder-text text-xs">
-                      Imagem: {project.image}
-                    </p>
-                  </div>
-                </div>
+                {/* Project Image */}
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
 
                 {/* Project Info */}
                 <div className="bg-white p-6">

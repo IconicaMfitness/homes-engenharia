@@ -71,31 +71,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: Hero Image Placeholder */}
+          {/* Right: Hero Image */}
           <div className="animate-fade-in">
-            <div className="placeholder-container aspect-square md:aspect-auto md:h-96 lg:h-[500px]">
-              <div className="placeholder-content w-full h-full">
-                <div className="placeholder-icon">
-                  <svg
-                    className="w-full h-full"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M3 12l2-3m0 0l7-4 7 4M5 9v10a1 1 0 001 1h12a1 1 0 001-1V9m-9 11l4-4m-9-2l-2-3m0 0L9 3m11 11v10a1 1 0 01-1 1H7a1 1 0 01-1-1v-10m9 0h2m-2 0h-2"
-                    />
-                  </svg>
-                </div>
-                <div className="placeholder-text max-w-xs">
-                  <p className="font-semibold">Imagem Hero</p>
-                  <p className="text-xs mt-1">Fachada de obra premium</p>
-                </div>
-              </div>
-            </div>
+            <img
+              src="/manus-storage/hero_cda9e3f3.jpg"
+              alt="Fachada Homes Engenharia"
+              className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
           </div>
         </div>
       </div>

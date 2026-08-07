@@ -9,31 +9,13 @@ export default function About() {
     <section id="about" className="section-padding bg-[#f5f5f5]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-          {/* Left: Image Placeholder */}
+          {/* Left: Image */}
           <div className="order-2 md:order-1 animate-fade-in">
-            <div className="placeholder-container aspect-square md:aspect-auto md:h-96 lg:h-[500px]">
-              <div className="placeholder-content w-full h-full">
-                <div className="placeholder-icon">
-                  <svg
-                    className="w-full h-full"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                </div>
-                <div className="placeholder-text max-w-xs">
-                  <p className="font-semibold">Imagem Institucional</p>
-                  <p className="text-xs mt-1">Equipe ou escritório</p>
-                </div>
-              </div>
-            </div>
+            <img
+              src="/manus-storage/about_6b7adad3.jpg"
+              alt="Equipe Homes Engenharia"
+              className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
           </div>
 
           {/* Right: Text Content */}
