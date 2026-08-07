@@ -24,17 +24,16 @@ export default function CEOVideo() {
             </p>
           </div>
 
-          {/* Video Placeholder */}
+          {/* Video Player */}
           <div className="animate-fade-in">
-            <div className="placeholder-container aspect-video rounded-xl overflow-hidden shadow-lg hover-lift">
-              <div className="placeholder-content w-full h-full bg-gradient-to-br from-[#f5f5f5] to-[#e0e0e0]">
-                <Play className="placeholder-icon text-[#E8471A]" />
-                <div className="placeholder-text max-w-xs">
-                  <p className="font-semibold">Vídeo do CEO</p>
-                  <p className="text-xs mt-1">Apresentação institucional</p>
-                </div>
-              </div>
-            </div>
+            <video
+              controls
+              className="w-full h-auto rounded-xl overflow-hidden shadow-lg"
+              poster="/manus-storage/hero_cda9e3f3.jpg"
+            >
+              <source src="/manus-storage/ceo_video_1271696d.mp4" type="video/mp4" />
+              Seu navegador não suporta reprodução de vídeo.
+            </video>
           </div>
 
           {/* Context */}
