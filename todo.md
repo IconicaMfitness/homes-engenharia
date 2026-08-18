@@ -11,3 +11,5 @@
 - [x] Remover a injeção de runtime exclusiva do ambiente de prévia no build público.
 - [ ] Preservar a página institucional em URLs com parâmetros de campanha.
 - [ ] Revalidar visualmente o site publicado no GitHub Pages.
+- [x] Auditar a copy publicada e os dados institucionais da Homes Engenharia.
+- [x] Restaurar a copy aprovada, os contatos de Brasília e o encaminhamento do formulário ao WhatsApp.

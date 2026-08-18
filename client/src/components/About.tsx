@@ -22,13 +22,13 @@ export default function About() {
           <div className="order-1 md:order-2 space-y-6 animate-fade-in-up">
             <div className="space-y-4">
               <p className="text-[#E8471A] font-semibold text-sm md:text-base tracking-wide uppercase">
-                Sobre Nós
+                Sobre a Homes
               </p>
               <h2 className="text-[#1a1a1a]">
-                Engenharia e Paixão por Detalhes
+                Seu projeto merece mais do que uma obra. Merece engenharia.
               </h2>
               <p className="text-[#666666] text-lg leading-relaxed">
-                A Homes Engenharia nasceu da visão de criar residências que transcendem o comum. Com mais de 15 anos de experiência, combinamos excelência técnica com design contemporâneo para entregar projetos que se tornam patrimônios.
+                Há mais de 10 anos, a Homes Engenharia une arquitetura, engenharia, planejamento e execução para conduzir residências de alto padrão, especialmente projetos a partir de 180m², com clareza em cada decisão.
               </p>
             </div>
 
@@ -37,22 +37,22 @@ export default function About() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-1 bg-[#E8471A] rounded-full" />
                 <div>
-                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Confiabilidade</h4>
-                  <p className="text-[#666666] text-sm">Cada compromisso é honrado com precisão e profissionalismo.</p>
+                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Planejamento</h4>
+                  <p className="text-[#666666] text-sm">Cada etapa começa antes da execução.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-1 bg-[#E8471A] rounded-full" />
                 <div>
-                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Inovação</h4>
-                  <p className="text-[#666666] text-sm">Tecnologia de ponta aplicada a cada etapa do projeto.</p>
+                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Responsabilidade técnica</h4>
+                  <p className="text-[#666666] text-sm">Engenharia presente nas decisões que fazem a diferença.</p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-1 bg-[#E8471A] rounded-full" />
                 <div>
-                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Qualidade</h4>
-                  <p className="text-[#666666] text-sm">Padrões internacionais em materiais e execução.</p>
+                  <h4 className="font-semibold text-[#1a1a1a] mb-1">Acompanhamento</h4>
+                  <p className="text-[#666666] text-sm">O cliente acompanha a evolução da obra.</p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function About() {
             {/* CTA */}
             <div className="pt-4">
               <button className="btn-secondary">
-                Conheça Nossa História
+                Conheça nossa forma de trabalhar
               </button>
             </div>
           </div>

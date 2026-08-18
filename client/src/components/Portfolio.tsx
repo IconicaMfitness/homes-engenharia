@@ -14,50 +14,50 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: 'Residência Contemporânea - Zona Sul',
-      category: 'completed',
-      area: '380m²',
-      year: '2024',
+      title: 'Obra em andamento',
+      category: 'ongoing',
+      area: 'Arquitetura',
+      year: 'Planejamento',
       image: `${assetBase}assets/obra-4.jpg`,
     },
     {
       id: 2,
-      title: 'Casa Minimalista - Bairro Premium',
-      category: 'completed',
-      area: '250m²',
-      year: '2023',
+      title: 'Obra em andamento',
+      category: 'ongoing',
+      area: 'Execução',
+      year: 'Acompanhamento',
       image: `${assetBase}assets/obra-5.jpg`,
     },
     {
       id: 3,
-      title: 'Mansão com Piscina - Condomínio Fechado',
+      title: 'Obra em andamento',
       category: 'ongoing',
-      area: '520m²',
-      year: '2024',
+      area: 'Detalhes',
+      year: 'Execução',
       image: `${assetBase}assets/obra-6.jpg`,
     },
     {
       id: 4,
-      title: 'Residência Duplex - Centro Expandido',
+      title: 'Obra concluída',
       category: 'completed',
-      area: '420m²',
-      year: '2023',
+      area: 'Arquitetura',
+      year: 'Acabamentos',
       image: `${assetBase}assets/foto-1.jpg`,
     },
     {
       id: 5,
-      title: 'Casa de Campo - Projeto Sustentável',
-      category: 'ongoing',
-      area: '300m²',
-      year: '2024',
+      title: 'Obra concluída',
+      category: 'completed',
+      area: 'Detalhes',
+      year: 'Acabamentos',
       image: `${assetBase}assets/foto-2.jpg`,
     },
     {
       id: 6,
-      title: 'Residência Moderna - Lote Especial',
+      title: 'Obra concluída',
       category: 'completed',
-      area: '350m²',
-      year: '2023',
+      area: 'Execução',
+      year: 'Entrega',
       image: `${assetBase}assets/foto-3.jpg`,
     },
   ];
@@ -81,10 +81,10 @@ export default function Portfolio() {
             Portfólio
           </p>
           <h2 className="text-[#1a1a1a] mb-4">
-            Obras Executadas com Excelência
+            O projeto ganha vida nos detalhes.
           </h2>
           <p className="text-[#666666] text-lg">
-            Conheça os projetos que refletem nossa dedicação à qualidade e inovação.
+            Conheça algumas das obras que traduzem nossa forma de trabalhar.
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export default function Portfolio() {
 
                   {/* CTA */}
                   <button className="flex items-center gap-2 text-[#E8471A] font-semibold hover:gap-3 transition-all duration-300">
-                    Ver Detalhes
+                    Ver imagens
                     <ChevronRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -162,10 +162,10 @@ export default function Portfolio() {
         {/* Bottom CTA */}
         <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           <p className="text-[#666666] mb-6">
-            Quer conhecer mais detalhes sobre algum projeto?
+            Vamos conversar sobre o seu projeto?
           </p>
           <button className="btn-primary">
-            Agendar Visita
+            Falar com um engenheiro
           </button>
         </div>
       </div>

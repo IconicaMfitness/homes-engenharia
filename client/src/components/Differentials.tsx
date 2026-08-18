@@ -10,23 +10,23 @@ export default function Differentials() {
   const differentials = [
     {
       icon: Award,
-      title: 'Certificações Internacionais',
-      description: 'Processos certificados conforme normas ISO e padrões internacionais de qualidade e segurança.',
+      title: 'Planejamento',
+      description: 'Cada etapa começa antes da execução.',
     },
     {
       icon: Zap,
-      title: 'Tecnologia de Ponta',
-      description: 'Utilização de BIM, drones, e sistemas inteligentes para otimizar execução e resultados.',
+      title: 'Responsabilidade técnica',
+      description: 'Engenharia presente nas decisões que fazem a diferença.',
     },
     {
       icon: Users,
-      title: 'Equipe Especializada',
-      description: 'Profissionais altamente qualificados com experiência em projetos de alto padrão.',
+      title: 'Transparência',
+      description: 'Clareza durante todo o processo para decisões mais seguras.',
     },
     {
       icon: Shield,
-      title: 'Garantia Técnica',
-      description: 'Garantia estendida de 10 anos em estrutura e 5 anos em acabamentos, com suporte contínuo.',
+      title: 'Acompanhamento',
+      description: 'O cliente acompanha a evolução da obra de perto.',
     },
   ];
 
@@ -39,10 +39,10 @@ export default function Differentials() {
             Diferenciais
           </p>
           <h2 className="text-[#1a1a1a] mb-4">
-            Por Que Escolher a Homes Engenharia
+            O que orienta a nossa forma de construir
           </h2>
           <p className="text-[#666666] text-lg">
-            Combinamos experiência, tecnologia e dedicação para entregar resultados excepcionais.
+            Planejamento, engenharia presente e relacionamento próximo durante toda a jornada.
           </p>
         </div>
 
@@ -76,10 +76,10 @@ export default function Differentials() {
         {/* Bottom CTA */}
         <div className="text-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <p className="text-[#666666] mb-6">
-            Quer conhecer mais sobre como podemos transformar seu projeto em realidade?
+            Vamos conversar sobre o seu projeto?
           </p>
           <button className="btn-primary">
-            Agendar Consulta
+            Falar com um engenheiro
           </button>
         </div>
       </div>

@@ -22,13 +22,13 @@ export default function Hero() {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <p className="text-[#E8471A] font-semibold text-sm md:text-base tracking-wide uppercase">
-                Excelência em Construção
+                Engenharia de detalhes
               </p>
               <h1 className="text-[#1a1a1a] leading-tight">
-                Residências Premium que Refletem Seu Estilo
+                Grandes projetos começam com uma engenharia à altura.
               </h1>
               <p className="text-[#666666] text-lg md:text-xl leading-relaxed max-w-lg">
-                Transformamos visões em realidade. Cada projeto é uma obra-prima de engenharia, design e dedicação.
+                Da arquitetura à execução, conduzimos cada etapa da sua obra com planejamento, responsabilidade técnica e atenção aos detalhes.
               </p>
             </div>
 
@@ -38,7 +38,7 @@ export default function Hero() {
                 onClick={scrollToContact}
                 className="btn-primary flex items-center justify-center gap-2 group"
               >
-                Solicitar Orçamento
+                Falar com um engenheiro
                 <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
               </button>
               <button
@@ -48,7 +48,7 @@ export default function Hero() {
                 }}
                 className="btn-secondary flex items-center justify-center gap-2"
               >
-                Ver Portfólio
+                Conhecer nossos projetos
               </button>
             </div>
 
@@ -56,16 +56,16 @@ export default function Hero() {
             <div className="pt-8 border-t border-[#e0e0e0]">
               <div className="grid grid-cols-3 gap-6">
                 <div>
-                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">15+</p>
-                  <p className="text-sm text-[#666666] mt-1">Anos de Experiência</p>
+                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">+10</p>
+                  <p className="text-sm text-[#666666] mt-1">anos de experiência</p>
                 </div>
                 <div>
-                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">50+</p>
-                  <p className="text-sm text-[#666666] mt-1">Obras Entregues</p>
+                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">5</p>
+                  <p className="text-sm text-[#666666] mt-1">anos de garantia</p>
                 </div>
                 <div>
-                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">100%</p>
-                  <p className="text-sm text-[#666666] mt-1">Satisfação</p>
+                  <p className="text-2xl md:text-3xl font-bold text-[#E8471A]">Arquitetura</p>
+                  <p className="text-sm text-[#666666] mt-1">integrada à engenharia</p>
                 </div>
               </div>
             </div>

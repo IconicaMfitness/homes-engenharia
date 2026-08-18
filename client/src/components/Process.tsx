@@ -10,39 +10,33 @@ export default function Process() {
   const steps = [
     {
       number: '01',
-      title: 'Consulta Inicial',
-      description: 'Entendemos sua visão, necessidades e expectativas. Avaliamos o projeto e apresentamos uma proposta personalizada.',
+      title: 'Entendimento',
+      description: 'Conhecemos seu projeto, suas necessidades e o que você espera da sua futura residência.',
       icon: '💬',
     },
     {
       number: '02',
-      title: 'Projeto e Planejamento',
-      description: 'Desenvolvimento detalhado do projeto arquitetônico e de engenharia, com cronograma e orçamento precisos.',
+      title: 'Planejamento',
+      description: 'Transformamos ideias e projetos em um planejamento claro para a execução.',
       icon: '📐',
     },
     {
       number: '03',
-      title: 'Aprovações e Licenças',
-      description: 'Gestão completa de aprovações junto aos órgãos competentes e obtenção de todas as licenças necessárias.',
+      title: 'Engenharia',
+      description: 'Analisamos cada detalhe técnico para garantir segurança, eficiência e precisão.',
       icon: '✅',
     },
     {
       number: '04',
-      title: 'Execução da Obra',
-      description: 'Construção com rigoroso controle de qualidade, utilizando materiais premium e equipes especializadas.',
+      title: 'Execução',
+      description: 'Acompanhamos a obra de perto, cuidando de cada etapa e mantendo o cliente informado.',
       icon: '🏗️',
     },
     {
       number: '05',
-      title: 'Acompanhamento Técnico',
-      description: 'Supervisão constante do engenheiro responsável, garantindo conformidade com o projeto e padrões de qualidade.',
+      title: 'Entrega',
+      description: 'O resultado final de um processo planejado, acompanhado e executado com responsabilidade.',
       icon: '👨‍💼',
-    },
-    {
-      number: '06',
-      title: 'Entrega e Garantia',
-      description: 'Entrega final com documentação completa, garantia técnica e suporte pós-obra para sua tranquilidade.',
-      icon: '🎉',
     },
   ];
 
@@ -52,13 +46,13 @@ export default function Process() {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in-up">
           <p className="text-[#E8471A] font-semibold text-sm md:text-base tracking-wide uppercase mb-4">
-            Metodologia
+            Da ideia à entrega
           </p>
           <h2 className="text-[#1a1a1a] mb-4">
-            Processo de Trabalho Transparente
+            Uma obra bem conduzida começa antes da execução.
           </h2>
           <p className="text-[#666666] text-lg">
-            Cada etapa é cuidadosamente planejada e executada para garantir excelência e transparência do início ao fim.
+            Unimos arquitetura, engenharia e planejamento para transformar projetos em construções seguras, funcionais e bem executadas.
           </p>
         </div>
 
@@ -98,7 +92,7 @@ export default function Process() {
         <div className="mt-16 hidden lg:block">
           <div className="relative h-1 bg-gradient-to-r from-[#E8471A] via-homes-orange to-[#e0e0e0] rounded-full" />
           <p className="text-center text-[#666666] text-sm mt-4">
-            Processo contínuo e integrado do início ao fim
+            Um processo integrado, do entendimento à entrega
           </p>
         </div>
       </div>

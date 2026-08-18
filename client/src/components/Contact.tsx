@@ -22,9 +22,14 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic would go here
-    console.log('Form submitted:', formData);
-    // Reset form
+    const message = [
+      'Olá, vim pelo site da Homes Engenharia.',
+      `Nome: ${formData.name}`,
+      `E-mail: ${formData.email}`,
+      `WhatsApp: ${formData.phone || 'Não informado'}`,
+      `Projeto: ${formData.message}`,
+    ].join('\n');
+    window.open(`https://wa.me/556195088501?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
     setFormData({ name: '', email: '', phone: '', message: '' });
   };
 
@@ -37,10 +42,10 @@ export default function Contact() {
             Contato
           </p>
           <h2 className="text-[#1a1a1a] mb-4">
-            Vamos Transformar Seu Projeto em Realidade
+            Vamos conversar sobre o seu projeto?
           </h2>
           <p className="text-[#666666] text-lg">
-            Entre em contato conosco para uma consulta personalizada e sem compromisso.
+            Se você está planejando construir sua residência e busca uma empresa para conduzir sua obra com engenharia, planejamento e responsabilidade, queremos conhecer seu projeto.
           </p>
         </div>
 
@@ -60,13 +65,15 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-[#1a1a1a] mb-1">
-                      Telefone
+                      WhatsApp
                     </p>
                     <a
-                      href="tel:+5511999999999"
+                      href="https://wa.me/556195088501"
+                      target="_blank"
+                      rel="noreferrer"
                       className="text-[#666666] hover:text-[#E8471A] transition-colors"
                     >
-                      +55 (11) 99999-9999
+                      +55 61 9508-8501
                     </a>
                   </div>
                 </div>
@@ -81,10 +88,10 @@ export default function Contact() {
                       Email
                     </p>
                     <a
-                      href="mailto:contato@homesengenharia.com.br"
+                      href="mailto:homesengenharia@gmail.com"
                       className="text-[#666666] hover:text-[#E8471A] transition-colors"
                     >
-                      contato@homesengenharia.com.br
+                      homesengenharia@gmail.com
                     </a>
                   </div>
                 </div>
@@ -99,9 +106,9 @@ export default function Contact() {
                       Endereço
                     </p>
                     <p className="text-[#666666]">
-                      Av. Paulista, 1000<br />
-                      São Paulo, SP 01311-100<br />
-                      Brasil
+                      SIG Capital Financial Center<br />
+                      Sudoeste/Octogonal, Brasília - DF<br />
+                      70610-440
                     </p>
                   </div>
                 </div>
@@ -111,12 +118,10 @@ export default function Contact() {
             {/* Hours */}
             <div className="pt-8 border-t border-[#e0e0e0]">
               <h4 className="font-semibold text-[#1a1a1a] mb-4">
-                Horário de Funcionamento
+                Atendimento
               </h4>
               <div className="space-y-2 text-[#666666] text-sm">
-                <p>Segunda a Sexta: 9h - 18h</p>
-                <p>Sábado: 10h - 14h</p>
-                <p>Domingo: Fechado</p>
+                <p>Fale com nossa equipe para conhecer as possibilidades de atendimento.</p>
               </div>
             </div>
           </div>
@@ -159,7 +164,7 @@ export default function Contact() {
               {/* Phone */}
               <div>
                 <label className="block text-[#1a1a1a] font-semibold mb-2 text-sm">
-                  Telefone
+                  Seu WhatsApp
                 </label>
                 <input
                   type="tel"
@@ -167,7 +172,7 @@ export default function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-[#e0e0e0] rounded-lg focus:outline-none focus:border-[#E8471A] focus:ring-1 focus:ring-homes-orange transition-all"
-                  placeholder="(11) 99999-9999"
+                  placeholder="(61) 9508-8501"
                 />
               </div>
 
@@ -192,13 +197,13 @@ export default function Contact() {
                 type="submit"
                 className="btn-primary w-full flex items-center justify-center gap-2 group"
               >
-                Enviar Mensagem
+                Falar com um engenheiro
                 <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
               </button>
 
               {/* Privacy Note */}
               <p className="text-[#666666] text-xs text-center">
-                Seus dados estão seguros conosco. Nunca compartilhamos informações.
+                Ao enviar, você será direcionado ao WhatsApp da Homes Engenharia.
               </p>
             </form>
           </div>

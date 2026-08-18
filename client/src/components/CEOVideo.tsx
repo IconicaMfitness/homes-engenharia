@@ -14,13 +14,13 @@ export default function CEOVideo() {
           {/* Header */}
           <div className="text-center mb-12 animate-fade-in-up">
             <p className="text-[#E8471A] font-semibold text-sm md:text-base tracking-wide uppercase mb-4">
-              Conheca Quem Lidera
+              CEO e engenheiro responsável
             </p>
             <h2 className="text-[#1a1a1a] mb-4">
-              Mensagem do CEO e Engenheiro Responsável
+              Quem assume sua obra precisa entender de engenharia.
             </h2>
             <p className="text-[#666666] text-lg max-w-2xl mx-auto">
-              Conheça a visão e o compromisso técnico de quem assina cada projeto e acompanha pessoalmente a execução de todas as nossas obras.
+              Na Homes Engenharia, você não fala apenas com uma empresa. Você conta com profissionais que entendem o projeto, acompanham a execução e assumem a responsabilidade técnica por cada etapa.
             </p>
           </div>
 
@@ -38,19 +38,19 @@ export default function CEOVideo() {
             <div className="space-y-3 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
               <h4 className="font-semibold text-[#1a1a1a] flex items-center gap-2">
                 <span className="w-2 h-2 bg-[#E8471A] rounded-full" />
-                Experiência Comprovada
+                Responsabilidade técnica
               </h4>
               <p className="text-[#666666] text-sm leading-relaxed">
-                Mais de 15 anos liderando projetos de alto padrão, com formação em Engenharia Civil e especialização em gestão de obras premium.
+                O projeto é entendido com critério antes que a execução comece.
               </p>
             </div>
             <div className="space-y-3 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <h4 className="font-semibold text-[#1a1a1a] flex items-center gap-2">
                 <span className="w-2 h-2 bg-[#E8471A] rounded-full" />
-                Acompanhamento Pessoal
+                Acompanhamento próximo
               </h4>
               <p className="text-[#666666] text-sm leading-relaxed">
-                Cada obra recebe atenção técnica pessoal, garantindo que os padrões de qualidade sejam mantidos do início ao fim.
+                Presença técnica nas etapas que pedem decisão, atenção e alinhamento.
               </p>
             </div>
           </div>

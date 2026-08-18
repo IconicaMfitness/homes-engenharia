@@ -73,7 +73,7 @@ export default function Header() {
               onClick={() => scrollToSection('contact')}
               className="btn-primary text-sm"
             >
-              Solicitar Orçamento
+              Falar com um engenheiro
             </button>
           </nav>
 
@@ -107,7 +107,7 @@ export default function Header() {
                 onClick={() => scrollToSection('contact')}
                 className="btn-primary w-full text-sm mt-2"
               >
-                Solicitar Orçamento
+                Falar com um engenheiro
               </button>
             </div>
           </nav>

@@ -37,7 +37,7 @@ export default function Footer() {
                 />
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Construtora de residências premium com excelência técnica e design sofisticado.
+                Engenharia e construção de residências de alto padrão em Brasília. 5 anos de garantia, porque nosso compromisso não termina com a entrega das chaves.
               </p>
               <div className="flex gap-4 pt-4">
                 {socialLinks.map((social) => {
@@ -79,22 +79,22 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a href="#" className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm">
-                    Construção Residencial
+                    Arquitetura integrada
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm">
-                    Projeto e Design
+                    Planejamento de obra
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm">
-                    Consultoria Técnica
+                    Engenharia e execução
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm">
-                    Reformas Premium
+                    Acompanhamento técnico
                   </a>
                 </li>
               </ul>
@@ -107,19 +107,21 @@ export default function Footer() {
                 <li className="flex gap-3 items-start">
                   <Phone className="w-5 h-5 text-[#E8471A] flex-shrink-0 mt-0.5" />
                   <a
-                    href="tel:+5511999999999"
+                    href="https://wa.me/556195088501"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm"
                   >
-                    +55 (11) 99999-9999
+                    +55 61 9508-8501
                   </a>
                 </li>
                 <li className="flex gap-3 items-start">
                   <Mail className="w-5 h-5 text-[#E8471A] flex-shrink-0 mt-0.5" />
                   <a
-                    href="mailto:contato@homesengenharia.com.br"
+                    href="mailto:homesengenharia@gmail.com"
                     className="text-gray-400 hover:text-[#E8471A] transition-colors duration-300 text-sm"
                   >
-                    contato@homesengenharia.com.br
+                    homesengenharia@gmail.com
                   </a>
                 </li>
               </ul>
