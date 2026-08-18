@@ -50,7 +50,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center gap-2 group">
               <img
-                src="/manus-storage/logo_999818ba.png"
+                src={`${import.meta.env.BASE_URL}assets/logo-homes.png`}
                 alt="Homes Engenharia"
                 className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
               />

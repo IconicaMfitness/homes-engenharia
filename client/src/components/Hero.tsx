@@ -74,7 +74,7 @@ export default function Hero() {
           {/* Right: Hero Image */}
           <div className="animate-fade-in">
             <img
-              src="/manus-storage/hero_cda9e3f3.jpg"
+              src={`${import.meta.env.BASE_URL}assets/hero.jpg`}
               alt="Fachada Homes Engenharia"
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />

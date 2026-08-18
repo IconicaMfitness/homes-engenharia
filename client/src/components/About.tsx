@@ -12,7 +12,7 @@ export default function About() {
           {/* Left: Image */}
           <div className="order-2 md:order-1 animate-fade-in">
             <img
-              src="/manus-storage/about_6b7adad3.jpg"
+              src={`${import.meta.env.BASE_URL}assets/about.jpg`}
               alt="Equipe Homes Engenharia"
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />

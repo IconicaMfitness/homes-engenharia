@@ -206,6 +206,8 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
+  // Mantém a prévia local na raiz e publica o build no subdiretório do GitHub Pages.
+  base: process.env.GITHUB_ACTIONS ? "/homes-engenharia/" : "/",
   plugins,
   resolve: {
     alias: {

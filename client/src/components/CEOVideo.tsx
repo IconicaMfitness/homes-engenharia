@@ -24,16 +24,13 @@ export default function CEOVideo() {
             </p>
           </div>
 
-          {/* Video Player */}
+          {/* Vídeo: a hospedagem externa pode ser conectada posteriormente sem mudar o layout. */}
           <div className="animate-fade-in">
-            <video
-              controls
+            <img
+              src={`${import.meta.env.BASE_URL}assets/hero.jpg`}
+              alt="Apresentação institucional da Homes Engenharia"
               className="w-full h-auto rounded-xl overflow-hidden shadow-lg"
-              poster="/manus-storage/hero_cda9e3f3.jpg"
-            >
-              <source src="/manus-storage/ceo_video_1271696d.mp4" type="video/mp4" />
-              Seu navegador não suporta reprodução de vídeo.
-            </video>
+            />
           </div>
 
           {/* Context */}

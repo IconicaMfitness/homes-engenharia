@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <img
-                  src="/manus-storage/logo_999818ba.png"
+                  src={`${import.meta.env.BASE_URL}assets/logo-homes.png`}
                   alt="Homes Engenharia"
                   className="h-10 w-auto"
                 />

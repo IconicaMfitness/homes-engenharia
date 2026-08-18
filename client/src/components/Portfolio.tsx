@@ -9,6 +9,7 @@ import { ChevronRight } from 'lucide-react';
 
 export default function Portfolio() {
   const [filter, setFilter] = useState('all');
+  const assetBase = import.meta.env.BASE_URL;
 
   const projects = [
     {
@@ -17,7 +18,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '380m²',
       year: '2024',
-      image: '/manus-storage/obra-4_cfcc6955.jpg',
+      image: `${assetBase}assets/obra-4.jpg`,
     },
     {
       id: 2,
@@ -25,7 +26,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '250m²',
       year: '2023',
-      image: '/manus-storage/obra-5_d70960a8.jpg',
+      image: `${assetBase}assets/obra-5.jpg`,
     },
     {
       id: 3,
@@ -33,7 +34,7 @@ export default function Portfolio() {
       category: 'ongoing',
       area: '520m²',
       year: '2024',
-      image: '/manus-storage/obra-6_a709cf1d.jpg',
+      image: `${assetBase}assets/obra-6.jpg`,
     },
     {
       id: 4,
@@ -41,7 +42,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '420m²',
       year: '2023',
-      image: '/manus-storage/foto-1_331c4a32.jpg',
+      image: `${assetBase}assets/foto-1.jpg`,
     },
     {
       id: 5,
@@ -49,7 +50,7 @@ export default function Portfolio() {
       category: 'ongoing',
       area: '300m²',
       year: '2024',
-      image: '/manus-storage/foto-2_1dae2608.jpg',
+      image: `${assetBase}assets/foto-2.jpg`,
     },
     {
       id: 6,
@@ -57,7 +58,7 @@ export default function Portfolio() {
       category: 'completed',
       area: '350m²',
       year: '2023',
-      image: '/manus-storage/foto-3_20ebcaae.jpg',
+      image: `${assetBase}assets/foto-3.jpg`,
     },
   ];
 
