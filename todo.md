@@ -8,5 +8,6 @@
 - [ ] Preparar uma publicação estática compatível com GitHub Pages.
 - [ ] Ativar a publicação e validar a página publicada.
 - [x] Regerar a publicação com os caminhos corretos para o subdiretório do GitHub Pages.
-- [ ] Remover a injeção de runtime exclusiva do ambiente de prévia no build público.
+- [x] Remover a injeção de runtime exclusiva do ambiente de prévia no build público.
+- [ ] Preservar a página institucional em URLs com parâmetros de campanha.
 - [ ] Revalidar visualmente o site publicado no GitHub Pages.
