@@ -203,11 +203,16 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+// O GitHub Pages recebe somente o app estático. Os plugins abaixo dependem do
+// ambiente de prévia do Manus e não podem ser injetados no HTML público.
+const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === "true";
+const plugins = isGitHubPagesBuild
+  ? [react(), tailwindcss(), jsxLocPlugin()]
+  : [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
   // Mantém a prévia local na raiz e publica o build no subdiretório do GitHub Pages.
-  base: process.env.GITHUB_ACTIONS ? "/homes-engenharia/" : "/",
+  base: isGitHubPagesBuild ? "/homes-engenharia/" : "/",
   plugins,
   resolve: {
     alias: {

@@ -1,0 +1,12 @@
+- [x] Identificar por que o servidor de desenvolvimento encerra na inicialização.
+- [x] Restaurar a configuração de projeto compatível com a prévia gerenciada.
+- [x] Reiniciar e confirmar o carregamento da página inicial.
+- [x] Conferir o repositório remoto e as alterações locais atuais.
+- [x] Criar o registro de versão e enviar o estado atual para o GitHub.
+- [x] Confirmar que o GitHub recebeu a atualização.
+- [ ] Verificar a estrutura do repositório e o estado do GitHub Pages.
+- [ ] Preparar uma publicação estática compatível com GitHub Pages.
+- [ ] Ativar a publicação e validar a página publicada.
+- [x] Regerar a publicação com os caminhos corretos para o subdiretório do GitHub Pages.
+- [ ] Remover a injeção de runtime exclusiva do ambiente de prévia no build público.
+- [ ] Revalidar visualmente o site publicado no GitHub Pages.
